@@ -14,24 +14,17 @@ import { RouterLink } from 'vue-router'
 						<li>
 							<RouterLink to="/users"><i class="bx bx-right-arrow-alt"></i>Users</RouterLink>
 						</li>
-						<li> <a href="index2.html"><i class="bx bx-right-arrow-alt"></i>Sales</a>
-						</li>
-						<li> <a href="index3.html"><i class="bx bx-right-arrow-alt"></i>eCommerce</a>
-						</li>
-						<li> <a href="index4.html"><i class="bx bx-right-arrow-alt"></i>Alternate</a>
-						</li>
-						<li> <a href="index5.html"><i class="bx bx-right-arrow-alt"></i>Hospitality</a>
-						</li>
+						
 					</ul>
 				</li>
 				<li>
 					<a href="javascript:;" class="has-arrow">
 						<div class="parent-icon"><i class='bx bx-spa'></i>
 						</div>
-						<div class="menu-title">Application</div>
+						<div class="menu-title">Role & Permissions</div>
 					</a>
 					<ul>
-						<li> <a href="app-emailbox.html"><i class="bx bx-right-arrow-alt"></i>Email</a>
+						<li> <RouterLink to="/roles"><i class="bx bx-right-arrow-alt"></i>Roles</RouterLink>
 						</li>
 						<li> <a href="app-chat-box.html"><i class="bx bx-right-arrow-alt"></i>Chat Box</a>
 						</li>
@@ -57,19 +50,21 @@ import { RouterLink } from 'vue-router'
 				</li>
 				<li>
 					<a href="javascript:;" class="has-arrow">
-						<div class="parent-icon"><i class='bx bx-cart-alt'></i>
+						<div class="parent-icon"><i class='bx bx-user'></i>
 						</div>
-						<div class="menu-title">eCommerce</div>
+						<div class="menu-title"> User Management</div>
 					</a>
 					<ul>
-						<li> <a href="ecommerce-products.html"><i class="bx bx-right-arrow-alt"></i>Products</a>
+						<li>
+							<RouterLink to="admins">
+								<i class="bx bx-right-arrow-alt"></i>Admins
+							</RouterLink>
 						</li>
-						<li> <a href="ecommerce-products-details.html"><i class="bx bx-right-arrow-alt"></i>Product Details</a>
+						<li> <a href="ecommerce-products-details.html"><i class="bx bx-right-arrow-alt"></i>Agents</a>
 						</li>
-						<li> <a href="ecommerce-add-new-products.html"><i class="bx bx-right-arrow-alt"></i>Add New Products</a>
+						<li> <a href="ecommerce-add-new-products.html"><i class="bx bx-right-arrow-alt"></i>Clients</a>
 						</li>
-						<li> <a href="ecommerce-orders.html"><i class="bx bx-right-arrow-alt"></i>Orders</a>
-						</li>
+						
 					</ul>
 				</li>
 				<li>
@@ -180,7 +175,7 @@ import { RouterLink } from 'vue-router'
 						<div class="menu-title">Tables</div>
 					</a>
 					<ul>
-						<li> <a href="table-basic-table.html"><i class="bx bx-right-arrow-alt"></i>Basic Table</a>
+						<li> <a href="table-basic-table.html"><i class="bx bx-right-arrow-alt"></i>Role & Accesse</a>
 						</li>
 						<li> <a href="table-datatable.html"><i class="bx bx-right-arrow-alt"></i>Data Table</a>
 						</li>

@@ -28,7 +28,7 @@ onMounted(fetchRoles);
         <hr>
      <div class="row">
 		<div class="col-md-6">
-            <RouterLink to="/admin/create" class="btn btn-primary mb-3" style="width: 6.25rem; justify-content: end">Add Role</RouterLink>
+            <RouterLink to="roles/create" class="btn btn-primary mb-3" style="width: 6.25rem; justify-content: end">Add Role</RouterLink>
         </div>
 	
 	 </div>
